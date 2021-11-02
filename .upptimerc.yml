@@ -19,14 +19,14 @@ status-website:
   cname: status.thinhoc.com
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/ucytech/ThinHoc-status/master/assets/101_thinhoc_white.png
-  themeUrl: https://raw.githubusercontent.com/ucytech/ThinHoc-status/master/assets/theme.css
+  themeUrl: https://status.thinhoc.com/theme.css
   name: ThinHoc
   introTitle: "Monitor the system status of **ThinHoc** and receive updates on outages in realtime."
   introMessage: "Monitor the system status of **ThinHoc** and receive updates on outages in realtime."
   navbar:
     - title: Website
-      href: /
-    - title: https://www.thinhoc.com
+      href: https://www.thinhoc.com
+    - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
