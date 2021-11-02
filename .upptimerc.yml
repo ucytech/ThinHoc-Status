@@ -14,15 +14,27 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.thinhoc.com
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://raw.githubusercontent.com/ucytech/ThinHoc-status/master/assets/101_thinhoc_white.png
+  themeUrl: https://raw.githubusercontent.com/ucytech/ThinHoc-status/master/assets/theme.css
   name: ThinHoc
   introTitle: "Monitor the system status of **ThinHoc** and receive updates on outages in realtime."
   introMessage: "Monitor the system status of **ThinHoc** and receive updates on outages in realtime."
   navbar:
-    - title: Status
+    - title: Website
+      href: /
+    - title: https://www.thinhoc.com
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+
+i18n:
+  footer: Powered by [Upptime](https://upptime.js.org)
+
+skipDescriptionUpdate: true
+
+commitMessages:
+  commitAuthorName: "ThinHoc Status Bot"
+  commitAuthorEmail: "status@thinhoc.com"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
