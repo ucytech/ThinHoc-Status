@@ -8,7 +8,7 @@ sites:
   - name: ThinHoc Config
     url: https://config.thinhoc.com
   - name: ThinHoc API
-    url: https://api.thinhoc.com
+    url: https://api.thinhoc.com/v1/ping
 
 
 status-website:
