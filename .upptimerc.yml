@@ -5,10 +5,8 @@ repo: ThinHoc-Status # The name of this repository
 sites:
   - name: ThinHoc Website
     url: https://www.thinhoc.com
-  - name: ThinHoc Testflight
-    url: https://launch.thinhoc.com/status
-    expectedStatusCodes:
-      - 200
+  - name: ThinHoc Config
+    url: https://config.thinhoc.com
   - name: ThinHoc API
     url: https://api.thinhoc.com/v1/ping
 
